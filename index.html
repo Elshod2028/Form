@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		html {
+			font-size: 17px;
+		}
+		body {
+			margin: 0;
+			font-family:'Roboto', sans-serif;
+			background-color: dimgray; 
+		}
+		.form-conteiner {
+			background-color: #d00;
+			max-width: 450px;
+			width: 110%;
+			margin: auto;
+			padding: 45px;
+			height: 320px;
+			border: 1px solid black;
+			border-radius: 10px;
+            box-shadow: 0px 0px 50px 10px black;
+		}
+
+		#form {
+
+		}
+		input {
+			display: block;
+			width: 100%;
+			margin: 0.5rem 0;
+			padding: 0.4rem 0;
+			outline: black;
+			font-size: 1rem;
+			border-radius: 30px;
+			color: whitesmoke;	
+			background-color: #d00;
+			border: 1px;
+
+		}
+		input[type="text"]::-webkit-input-placeholder {
+    color: white;
+}
+input[type="email"]::-webkit-input-placeholder {
+    color: white;
+}
+input[type="password"]::-webkit-input-placeholder {
+    color: white;
+}
+input[type="submit"]{
+	background-color: darkorange;
+	border-radius: 40px;
+    color: white; 
+}        
+		.form-heading {
+			margin-top: 0;
+			font-size: 1.5rem;
+			font-weight: 500;
+			color: white;
+		}
+	</style>	
+</head>
+<body>
+    <p>	</p>
+    	<div class="form-conteiner">
+		<h3 class="form-heading">LOGIN</h3>
+		<form action="https://getsimpleform.com/messages?form_api_token=28c7a53bcaf4075fe18f58183f35795d" method="post">
+			<input id="name" name="name" type="text" placeholder="Name">
+			<input id="email" type="email" name="_repluto" placeholder="E-mail">
+			<input id="parol" type="password" name="password" placeholder="Password">
+			<P>	</P>
+			<input id="submit" type="submit" value="Отправить">
+		</form>
+	</div>
+	<script type="text/javascript">
+	
+	</script>
+
+</body>
+</html> 	
